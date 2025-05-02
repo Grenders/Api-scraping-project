@@ -9,11 +9,12 @@ A Django application project with APIs for working with character data, scraping
 
 ## How to run
 - Create venv: `python -m venv venv`
-- Activate it `venv/bin/aactivate`
+- Activate it `venv/bin/activate`
 - Install requirements.txt `pip install -r requirements.txt`
+- Copy .env.sample -> .env abd populate with all required data
 - Run migrations `python manage.py migrate`
 - Run Redis server `docker run -d -p 6379:6379 redis`
 - Run celery worker for tasks  `celery -A config worker --loglevel=info`
 - Run celery beat for tash  `celery -A config beat --loglevel=info`
-- Create schedule for running sync in DB
+- Create admin user & Create schedule for running sync in DB
 - Run app: `python manage.py runserver` 
