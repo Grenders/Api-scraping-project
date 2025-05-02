@@ -6,7 +6,7 @@ A Django application project with APIs for working with character data, scraping
 5. requests - A library for executing HTTP requests used for scraping data from an external API.
 6. PostgreSQL - A database used by the Django ORM to store models.
 
-Translated with DeepL.com (free version)
+
 ## How to run
 - Create venv: `python -m venv venv`
 - Activate it `venv/bin/aactivate`
