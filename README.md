@@ -2,8 +2,8 @@ A Django application project with APIs for working with character data, scraping
 1. Django - A web framework for creating the backend, including models, views, and routes.
 2. Django REST Framework (DRF) - A library for creating RESTful APIs used for data serialization (and processing HTTP requests).
 3. Celery - A framework for asynchronous task processing used for periodic synchronization with the API.
-4.drf-spectacular - Library for automatic generation of OpenAPI documentation for APIs.
-5.requests - A library for executing HTTP requests used for scraping data from an external API.
+4. drf-spectacular - Library for automatic generation of OpenAPI documentation for APIs.
+5. requests - A library for executing HTTP requests used for scraping data from an external API.
 6. PostgreSQL - A database used by the Django ORM to store models.
 
 Translated with DeepL.com (free version)
